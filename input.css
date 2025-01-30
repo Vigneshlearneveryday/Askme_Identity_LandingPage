@@ -4,107 +4,107 @@
 
 /* Section Heading */
 .section-heading{
-    @apply text-3xl text-center mb-2 cursor-default
+      text-3xl text-center mb-2 cursor-default
 }
 
 /* Section Description */
 .section-description{
-    @apply text-lg text-center my-2 cursor-default
+      text-lg text-center my-2 cursor-default
 }
 
 /* Active Button */
 .active-btn{
-    @apply font-medium font-secondary px-4 py-1 rounded text-base 2xl:text-lg text-white 
+      font-medium font-secondary px-4 py-1 rounded text-base 2xl:text-lg text-white 
     bg-gradient-to-br hover:bg-gradient-to-tl from-[#083F9B] to-[#7F56D9]
     
 }
 
 /* Normal Button */
 .normal-btn{
-    @apply font-medium font-secondary px-4 py-1 rounded text-base 2xl:text-lg text-[#4A4A4A] hover:underline hover:text-[#0E38CD]
+      font-medium font-secondary px-4 py-1 rounded text-base 2xl:text-lg text-[#4A4A4A] hover:underline hover:text-[#0E38CD]
 }
 
 /* -----------------COURSES SECTION-------------------*/
 
 /* Course Card */
 .course-card{
-    @apply basis-72 2xl:basis-96 shadow-lg rounded-xl cursor-default hover:shadow-2xl transition-all duration-300
+      basis-72 2xl:basis-96 shadow-lg rounded-xl cursor-default hover:shadow-2xl transition-all duration-300
 }
 
 /* Course Card Image */
 .course-card-image{
-    @apply object-cover overflow-hidden rounded-t-2xl
+      object-cover overflow-hidden rounded-t-2xl
 }
 
 /* Course Card Content */
 .course-card-content{
-    @apply flex flex-col gap-4 p-6 pb-3 bg-white rounded-b-2xl
+      flex flex-col gap-4 p-6 pb-3 bg-white rounded-b-2xl
 }
 
 /* Course Card Bio */
 .course-card-bio{
-    @apply text-[#4E596B] text-xs flex justify-between
+      text-[#4E596B] text-xs flex justify-between
 }
 
 /* Course Card Course Description */
 .course-card-description{
-    @apply text-[#324361] text-[1.125rem] font-semibold
+      text-[#324361] text-[1.125rem] font-semibold
 }
 
 /* Course Card Course Rate */
 .course-card-rate{
-    @apply text-[#4E596B] text-base font-semibold flex justify-between items-center
+      text-[#4E596B] text-base font-semibold flex justify-between items-center
 }
 
 /* -----------------ABOUTUS SECTION-------------------*/
 
 /* Aboutus Card */
 .aboutus-card{
-    @apply w-full sm:w-1/3 flex flex-col gap-6 items-center px-14 sm:px-4 lg:px-14 cursor-default
+      w-full sm:w-1/3 flex flex-col gap-6 items-center px-14 sm:px-4 lg:px-14 cursor-default
 }
 
 /* Aboutus Card Image */
 .aboutus-card-image{
-    @apply w-14 group-hover:mix-blend-overlay transition-all duration-1000
+      w-14 group-hover:mix-blend-overlay transition-all duration-1000
 }
 
 /* Aboutus Card Title */
 .aboutus-card-title{
-    @apply text-center text-xl font-normal group-hover:mix-blend-overlay transition-all duration-1000
+      text-center text-xl font-normal group-hover:mix-blend-overlay transition-all duration-1000
 }
 
 /* Aboutus Card Description */
 .aboutus-card-description{
-    @apply text-center text-base font-thin group-hover:mix-blend-overlay transition-all duration-1000
+      text-center text-base font-thin group-hover:mix-blend-overlay transition-all duration-1000
 }
 
 /* -----------------CATAGORIES SECTION-------------------*/
 
 /* Catagories Card */
 .catagories-card{
-    @apply w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 
+      w-full sm:w-[30%] lg:w-[15%] sm:max-w-44 
     bg-white py-5 sm:py-8 px-4 sm:px-8 
     flex sm:flex-col items-center gap-8 rounded-xl cursor-pointer shadow-md hover:shadow-2xl transition-colors duration-700
 }
 
 /* Catagories Card Image */
 .catagories-card-image{
-    @apply p-2 rounded-md border-2 border-white group-hover:bg-transparent transition-colors duration-700
+      p-2 rounded-md border-2 border-white group-hover:bg-transparent transition-colors duration-700
 }
 
 /* Catagories Card Content */
 .catagories-card-content{
-    @apply flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center
+      flex flex-col gap-3 sm:gap-6 sm:justify-center sm:items-center
 }
 
 /* Catagories Card Title */
 .catagories-card-title{
-    @apply text-[#324361] text-xl sm:text-center group-hover:text-white transition-colors duration-700
+      text-[#324361] text-xl sm:text-center group-hover:text-white transition-colors duration-700
 }
 
 /* Catagories Card Course */
 .catagories-card-course{
-    @apply text-[#4F547B] text-base group-hover:text-white transition-colors duration-700
+      text-[#4F547B] text-base group-hover:text-white transition-colors duration-700
 }
 
 
@@ -112,37 +112,37 @@
 
 /* Testimonials Card */
 .testimonials-card{
-    @apply w-full sm:w-[35%] bg-white px-8 pt-6 pb-3 cursor-default shadow-lg hover:shadow-2xl transition-all duration-300 
+      w-full sm:w-[35%] bg-white px-8 pt-6 pb-3 cursor-default shadow-lg hover:shadow-2xl transition-all duration-300 
 }
 
 /* Testimonials Card Wrapper */
 .testimonials-card-wrapper{
-    @apply relative flex flex-col items-center
+      relative flex flex-col items-center
 }
 
 /* Testimonials Card Circle Women Image */
 .circle-women-image{
-    @apply absolute -top-[70px]
+      absolute -top-[70px]
 }
 
 /* Testimonials Card Content */
 .testimonials-card-content{
-    @apply flex flex-col items-center lg:items-start
+      flex flex-col items-center lg:items-start
 }
 
 /* Testimonials Card Description */
 .testimonials-card-description{
-    @apply text-[#7E7EAA] text-sm text-center lg:text-left
+      text-[#7E7EAA] text-sm text-center lg:text-left
 }
 
 /* Testimonials Card Yellow Star */
 .yellow-star{
-    @apply text-sm text-[#FAB437]
+      text-sm text-[#FAB437]
 }
 
 /* Testimonials Card Gray Star */
 .gray-star{
-    @apply text-sm text-gray-300
+      text-sm text-gray-300
 }
 
 
@@ -150,16 +150,16 @@
 
 /* Footer Social Icons */
 .social-icons{
-    @apply w-10 p-1 border-2 border-white rounded-full bg-white 
+      w-10 p-1 border-2 border-white rounded-full bg-white 
     hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 transition-all duration-1000
 }
 
 /* Footer Navlinks Title */
 .footer-navlink-title{
-    @apply text-xl mb-4 cursor-default
+      text-xl mb-4 cursor-default
 }
 
 /* Footer Nav Links */
 .footer-navlink{
-    @apply text-base hover:text-white
+      text-base hover:text-white
 }
